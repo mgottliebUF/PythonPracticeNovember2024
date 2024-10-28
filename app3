@@ -1,0 +1,3 @@
+string1 = "Welcome to Space"
+a = len(string1)
+print(a)
