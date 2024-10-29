@@ -1,2 +1,10 @@
-string1 = "DCO" 
-print(string1 + "is cool")
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles[1].title())
+if bicycles[1].title() == 'Cannondale':
+    print("the list has been properly formatted")
+    
+    
+bicylcles = ['trek', 'cannondale', 'redline', 'specialized']
+new_message = "My first bicycle was a " + bicycles[0].title()
+print(new_message)
+    
