@@ -1,3 +1,5 @@
-string1 = "Welcome to Space"
-a = len(string1)
-print(a)
+#Changing elements in a list 
+
+cars = ["ferrari", "bugatti", "toyota"]
+cars[0] = "lambroghini"
+print(cars)
