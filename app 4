@@ -1,5 +1,18 @@
-#adding elements to a list 
+#You cannot modify a tuple
+#Tuples in Python Practice
 
-motorcycles = ["honda", 'yamaha', 'suzuki']
-motorcycles.append('ducati')
-print(motorcycles)
+"""
+But you can assign a new value to a variable that holds a tuple.
+So if we wanted to change our dimensions, we could redefine the entire 
+tuple:
+"""
+
+dimensions = (200, 50)
+print("Original dimensions: ")
+for dimension in dimensions:
+    print(dimension)
+
+dimenisons = (400, 100)
+print("\nModified dimensions:")
+for dimension in dimensions: 
+    print(dimension)
