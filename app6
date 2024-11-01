@@ -1,0 +1,14 @@
+#Guest List 
+
+dinner = [] 
+dinner.append('Jeff')
+dinner.append('Mark')
+dinner.append('Elon')
+print(dinner)
+
+for person in dinner: 
+  print("Thank you for coming to dinner " + person + "!")
+
+dinner.reverse()
+
+print(dinner) 
