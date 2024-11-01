@@ -1,0 +1,10 @@
+#Banned User 
+
+banned_users = ['andrew', 'carolina', 'david']
+
+username = input("What is your username? ")
+
+if username not in banned_users: 
+  print(username.title() + ", Willkommen")
+else: 
+  print("you are banned")
