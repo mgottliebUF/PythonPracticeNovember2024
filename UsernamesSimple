@@ -1,0 +1,12 @@
+
+#Usernames
+
+usernames = ['admin', 'player_1', 'player_2', 'player_3', 'player_4']
+
+for user in usernames: 
+    if user == 'admin':
+        print("Hello, admin. How would you like to proceed?")
+    else: 
+        print("Hello, "+ user + " welcome to the simulation!")
+        
+print("the simulation is complete")
