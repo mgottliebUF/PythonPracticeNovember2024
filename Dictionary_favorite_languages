@@ -6,3 +6,7 @@ favorite_languages = {
 }
 
 print(favorite_languages['jen'])
+
+for name in favorite_languages:
+    print(name.title())
+    
