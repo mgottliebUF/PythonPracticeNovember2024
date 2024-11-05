@@ -1,17 +1,16 @@
-
-#Usernames
-
-usernames = ['Admin', 'Player_1', 'Player_2', 'Player_3', 'Player_4']
-
-if usernames:
-    print("This list is not empty")
-else: 
-    print("this list is empty")
-for user in usernames: 
-    if user == 'admin':
-        print("Hello, admin. How would you like to proceed?")
-    else: 
-        print("Hello, "+ user + " welcome to the simulation!")
-
-        
-print("The simulation is complete")
+users = {
+    'aeinstein': {
+        'first': 'albert',
+        'last': 'einstein',
+        'location': 'princeton',
+    },
+    'mcurie': {
+        'first': 'marie',
+        'last': 'curie',
+        'location': 'paris'
+    },
+}
+    
+print(users)
+    
+       
