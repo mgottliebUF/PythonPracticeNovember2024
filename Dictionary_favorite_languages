@@ -19,3 +19,5 @@ for name in favorite_languages.keys():
        ", I see your favorite language is " + 
        favorite_languages[name].title() + "!")
        
+print("The following languages have been mentioned:")
+for language in favorite_langu
