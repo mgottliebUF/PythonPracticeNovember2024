@@ -1,12 +1,17 @@
 #Generate a set that has a list of cities and iterate through them to check if one is Barcelona
 
 
-user_cities = ["Madrid", "Seville", "Caracass", "King", "Western", "Barcelona"]
+user_cities = ["Madrid", "Barcelona", "Caracass", "King", "Western"]
 
 for city in user_cities: 
     if city == "Barcelona":
         print("The user has a favorite city of Barcelona")
+        break
     else: 
         print("The user does have a favorite city of Barcelona")
-    
-    
+        
+        
+for city in user_cities: 
+    if city == "Madrid":
+        continue
+    print("Other cities the user likes are", city)
