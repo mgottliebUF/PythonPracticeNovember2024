@@ -1,0 +1,28 @@
+#Homework 2
+
+num_list = [33,42,5,66,77,22,16,79,36,62,78,43,88,39,53,67,89,11]
+
+#Problem 1
+
+for number in num_list: 
+    print(number)
+    
+#Problem 2
+
+for number in num_list: 
+    if number > 45: 
+        print(number)
+    else: 
+        pass
+
+#Problem 3
+
+for number in num_list: 
+    if number > 45: 
+        print("Over 45")
+        print(number)
+    if number < 45: 
+        print("Under 45")
+        pass
+
+#Problem 4
