@@ -1,0 +1,13 @@
+"""palindrome checking, built on DRY principles, functional programming principles from Meta 
+python programming course"""
+
+
+def palindrome_checker():
+    str = input("What is the word you would like to check is a palindrome?")
+    str_rev = str[::-1]
+    if str_rev == str:
+        print("Your input is a palindrome")
+    else: 
+        print("Your input is not a palindrome")
+
+palindrome_checker()
