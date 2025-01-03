@@ -1,0 +1,38 @@
+
+"""
+This is a stub for a class representing a house that can be used to create objects
+"""
+
+
+class House: 
+    num_rooms = 5
+    bathrooms = 2
+    
+    def cost_evaluation(self):
+        print(self.num_rooms)
+        pass
+    
+house = House()
+print(house.num_rooms)
+print(House.num_rooms)
+
+house.num_rooms = 7
+print(house.num_rooms)
+print(House.num_rooms)
+
+"""
+What happened above was that I created an instance of a class called house and then modified this attribute to 7
+"""
+
+#Different approach 
+
+House.num_rooms = 7
+print(house.num_rooms)
+print(House.num_rooms)
+
+"""
+We see here that changes on aclass attribute will affect even the instances created over it
+Remember: self can be replaced with another word, but it is not best practice to do this.
+"""
+
+
